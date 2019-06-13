@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Festravel</title>
+	<!--<link href="./css/header.css" rel="stylesheet" media="all">
+	<link href="./css/nav.css" rel="stylesheet" media="all">-->
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.clear{
+			clear:both;
+		}
+		a {
+		text-decoration: none !important;
+			color: black; 
+		}
+
+header{
+	height: 5%;
+	margin-top: 0.5%;
+	margin-bottom: 0.2%;
+}
+fieldset{
+	border:none;
+}
+input{
+	position: relative;
+	width: 150px;
+	height: 25px;
+	padding: 0;
+	float: left;
+}
+button{
+	position: relative;
+	padding: 0;
+	float: left;
+	background-color: white;
+}
+#search{
+	display: inline-block;
+	height: 25px;
+	width: 250px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	border:none;
+}
+#logo{
+
+	float: left;
+	margin-left: 25%;
+	font-size: 30px;
+	font-weight: bold;
+	color:orange;
+}
+#user{
+	float: right;
+	margin-right:120px;
+	margin-top: 60px;
+	font-size: 15px;
+	color:black;	
+}
+
+nav{
+	text-align: center;
+	background-color: orange;
+	height: 70px;
+	font-weight: bold;
+	font-size:23px;
+	color: white;
+	margin-top:10px;
+	}
+nav li{
+	display: block;
+	margin:30px;
+
+}
+
+.nav1{
+	display: inline-block;
+	padding-left: 110px;
+	padding-right: 110px;
+	padding-top: 20px;
+
+}
+.hover1{
+	display: none;
+	background-color: white;
+	color:black;
+	font-size: 20px; 
+	list-style-type: none;
+	position:absolute;
+}
+.nav1:hover .hover1{
+	display: block;
+}
+
+section ul{
+		margin-top:20px;
+	}
+	section li{
+		display: inline-block;
+		margin-right: 20px;
+		list-style-type: none;
+	}
+
+	.glo{
+		height: 70px;
+		position: absolute;
+		z-index: 2;
+		margin-top:-35px;
+		border:solid 2px white; 
+		background-color: orange
+
+	}
+	.glo li{
+		margin-left: 50px;
+		font-size: 20px;
+		font-weight: bold;
+		color:white;
+	}
+
+	aside{
+		font-size: 20px;
+		float: left;
+		margin-top: 20px;
+		margin-left: 10px;
+		padding-left: 25px;
+		margin-bottom: 10px;
+	}
+	aside li{
+		margin-left: 20px;
+		margin-bottom: 19px;
+		font-size: 14px; 
+	}
+	#me{
+		margin-top: 130px;
+	}
+	#eventmain{
+		float: left;
+		margin-left: 70px;
+
+	}
+
+	footer{
+		height: 100px;
+		margin-top: 200px;
+		padding-top: 10px;
+		border-top: solid 1px orange;
+		background-color: #eea511;
+		color: white;
+		font-size: 12px;
+	}
+	footer li{
+		display: inline;
+		margin: 7px;
+		list-style-type: none;
+	}
+	#imfo{
+		float: left;
+		margin-left: 15px;
+	}
+	#adress{
+		float: right;
+		margin-right: 15px;
+	}
+	section{
+		margin-top: 200px;
+		margin-bottom: 50px;
+		margin-left: 600px;
+		margin-right: 500px;
+	}
+
+	</style>
+</head>
+
+<body>
+	<form>
+		<header>
+			<div id=search>
+				<fieldset>
+					<input type = search value="">
+					<button type = submint value="">
+						<img src = "../img/button.png" width="25" height="25">
+					</button>
+				</fieldset>
+			</div>
+
+			<div id = logo>
+				<a href = "../index.html"><h1 style="color:orange">Festravel</h1></a>
+			</div>
+			<div id = user>
+				<a href="login.html" >로그인</a> | <a href ="user.html">회원가입</a>
+			</div>
+		</header>
+
+		<div class = clear></div>
+		<nav>
+			<div class = nav1>
+				<ul><a href="Festravel.html" style = "color:white">Festravel</a>
+					<div class = hover1>
+						<li><a href="Festravel.html">Festravel 소개</a></li>
+						<li><a href="map.html">사무실 위치</a></li>	
+					</div>
+				</ul>
+			</div>
+			<div class = nav1>
+				<ul><a href="asia.html" style = "color:white">조희</a>
+					<div class = hover1>
+						<li><a href="asia.html">조회</li>
+					</div>
+				</ul>
+			</div>
+			<div class = nav1>
+				<ul><a href="spring1.html" style = "color:white">축제 정보</a>
+					<div class = hover1>
+						<li><a href="spring1.html">봄</a></li>
+						<li><a href="summer1.html">여름</a></li>
+						<li><a href="#">가을</a></li>
+						<li><a href="#">겨울</a></li>
+					</div>
+				</ul>
+			</div>
+			<div class = nav1>
+				<ul><a href="#" style = "color:white">항공 / 숙박</a>
+					<div class = hover1>
+						<li><a href="#">항공</li>
+						<li><a href="#">숙박</li>
+					</div>
+				</ul>
+			</div>
+			<div class = nav1>
+				<ul><a href="#" style = "color:white">마이페이지</a>
+					<div class = hover1>
+						<li><a href="#">내 정보</a></li>
+						<li><a href="#">예약 확인</a></li>
+						<li><a href="event.html">추천 이벤트</a></li>
+					</div>
+				</ul>
+			</div>
+		</div>
+		</nav>
+
+	<div class= clear></div>
+	<section>
+<h3>
+로그인
+</h3>
+<table border="1" width="600" height="100">
+	<tr>
+		<th>아이디</th>
+		<td><input type="text" size="20" ></td>
+		<td rowspan="2"><a href="logout.html"><input type="button" value="확인" name="회원가입" style="width: 100px; height: 100px; margin-right:-57px;"></a></td>
+	</tr>
+	<tr>
+		<th>비밀번호</th>
+		<td><input type="text" size="20"></td>
+	</tr>
+</form>
+</td>
+</tr>
+</table>
+</section>
+
+		<div class=clear></div>
+	<footer>
+		<div id=imfo>
+			<ul>
+				<li><a href="#" style = "color:white">이용약관</a></li>
+				<li>|</li>
+				<li><a href="#" style = "color:white">개인정보 처리 방침</a></li>
+				<li>|</li>
+				<li><a href="#" style = "color:white">고객센터</a></li>
+				<li>|</li>
+				<li><a href="#" style = "color:white">광고문의</a></li>
+			</ul>
+		</div>
+		<div id=adress>
+			<ul>
+				<li>보험정보안내 : 1350-1333</li>
+				<li>제휴이벤트상품 안내: 1650-4651</li>
+			</ul>
+			
+		</div>
+	</footer>
+
+</body>
+</html>
